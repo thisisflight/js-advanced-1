@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: navy;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-new-year {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  height: 400px;
+  padding: 80px;
+  border-radius: 40px;
+  background-color: #fff;
+}
+
+.timer-new-year__header {
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.timer-new-year__content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.timer-new-year__value {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.timer-new-year__separator {
+  font-size: 60px;
+  transform: translateY(-15px);
+}
