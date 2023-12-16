@@ -1,0 +1,27 @@
+{
+  "name": "15-build",
+  "version": "1.0.0",
+  "description": "homework",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup index.js --file bundle.js --format cjs",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisisflight/js-advanced-1.git"
+  },
+  "keywords": [
+    "homework"
+  ],
+  "author": "Andrey Ivanchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisisflight/js-advanced-1/issues"
+  },
+  "homepage": "https://github.com/thisisflight/js-advanced-1#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "rollup": "^4.9.0"
+  }
+}
